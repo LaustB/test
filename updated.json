@@ -687,7 +687,9 @@
   "Standard_D32s_v4": {
     "up": "Standard_D48s_v4",
     "down": "Standard_D16s_v4",
-    "superseded": null,
+    "superseded": {
+      "regular": "Standard_D32as_v5"
+    },
     "vcpu": 32,
     "nfu": "16"
   },
@@ -1397,14 +1399,18 @@
   "Standard_D4as_v4": {
     "up": "Standard_D8as_v4",
     "down": "Standard_D2as_v4",
-    "superseded": null,
+    "superseded": {
+      "regular": "Standard_D4as_v5"
+    },
     "vcpu": 4,
     "nfu": "2"
   },
   "Standard_D8as_v4": {
     "up": "Standard_D16as_v4",
     "down": "Standard_D4as_v4",
-    "superseded": null,
+    "superseded": {
+      "regular": "Standard_D8as_v5"
+    },
     "vcpu": 8,
     "nfu": "4"
   },
@@ -1550,7 +1556,9 @@
   "Standard_D4ds_v4": {
     "up": "Standard_D8ds_v4",
     "down": "Standard_D2ds_v4",
-    "superseded": null,
+    "superseded": {
+      "regular": "Standard_D4ads_v5"
+    },
     "vcpu": 4,
     "nfu": "2"
   },
@@ -1599,7 +1607,9 @@
   "Standard_E4_v4": {
     "up": "Standard_E8_v4",
     "down": "Standard_E2_v4",
-    "superseded": null,
+    "superseded": {
+      "regular": "Standard_E4a_v5"
+    },
     "vcpu": 4,
     "nfu": "2"
   },
