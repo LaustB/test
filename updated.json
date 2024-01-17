@@ -3990,7 +3990,9 @@
   "Standard_M64s": {
     "up": "Standard_M128s",
     "down": null,
-    "superseded": null,
+    "superseded": {
+      "regular": "Standard_M64ds_v2"
+    },
     "vcpu": 64,
     "nfu": "1"
   },
