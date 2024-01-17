@@ -471,14 +471,18 @@
   "Standard_D4s_v3": {
     "up": "Standard_D8s_v3",
     "down": "Standard_D2s_v3",
-    "superseded": null,
+    "superseded": {
+      "regular": "Standard_D4ads_v5"
+    },
     "vcpu": 4,
     "nfu": "2"
   },
   "Standard_D8s_v3": {
     "up": "Standard_D16s_v3",
     "down": "Standard_D4s_v3",
-    "superseded": null,
+    "superseded": {
+      "regular": "Standard_D8ads_v5"
+    },
     "vcpu": 8,
     "nfu": "4"
   },
@@ -673,7 +677,9 @@
   "Standard_D8s_v4": {
     "up": "Standard_D16s_v4",
     "down": "Standard_D4s_v4",
-    "superseded": null,
+    "superseded": {
+      "regular": "Standard_D8ads_v5"
+    },
     "vcpu": 8,
     "nfu": "4"
   },
@@ -1343,7 +1349,9 @@
   "Standard_D4a_v4": {
     "up": "Standard_D8a_v4",
     "down": "Standard_D2a_v4",
-    "superseded": null,
+    "superseded": {
+      "regular": "Standard_D4ads_v5"
+    },
     "vcpu": 4,
     "nfu": "2"
   },
@@ -1400,7 +1408,7 @@
     "up": "Standard_D8as_v4",
     "down": "Standard_D2as_v4",
     "superseded": {
-      "regular": "Standard_D4as_v5"
+      "regular": "Standard_D4ads_v5"
     },
     "vcpu": 4,
     "nfu": "2"
@@ -1409,7 +1417,7 @@
     "up": "Standard_D16as_v4",
     "down": "Standard_D4as_v4",
     "superseded": {
-      "regular": "Standard_D8as_v5"
+      "regular": "Standard_D8ads_v5"
     },
     "vcpu": 8,
     "nfu": "4"
@@ -1928,7 +1936,9 @@
   "Standard_E16ds_v5": {
     "up": "Standard_E20ds_v5",
     "down": "Standard_E8ds_v5",
-    "superseded": null,
+    "superseded": {
+      "regular": "Standard_E16ads_v5"
+    },
     "vcpu": 16
   },
   "Standard_E20ds_v5": {
@@ -3084,7 +3094,9 @@
   "Standard_E8ds_v4": {
     "up": "Standard_E16ds_v4",
     "down": "Standard_E4ds_v4",
-    "superseded": null,
+    "superseded": {
+      "regular": "Standard_E8ads_v5"
+    },
     "vcpu": 8,
     "nfu": "4"
   },
@@ -3105,14 +3117,18 @@
   "Standard_E32ds_v4": {
     "up": "Standard_E48ds_v4",
     "down": "Standard_E20ds_v4",
-    "superseded": null,
+    "superseded": {
+      "regular": "Standard_E32ads_v5"
+    },
     "vcpu": 32,
     "nfu": "16"
   },
   "Standard_E48ds_v4": {
     "up": "Standard_E64ds_v4",
     "down": "Standard_E32ds_v4",
-    "superseded": null,
+    "superseded": {
+      "regular": "Standard_E48ads_v5"
+    },
     "vcpu": 48,
     "nfu": "24"
   },
@@ -3203,7 +3219,9 @@
   "Standard_E8s_v3": {
     "up": "Standard_E16s_v3",
     "down": "Standard_E4s_v3",
-    "superseded": null,
+    "superseded": {
+      "regular": "Standard_E8ads_v5"
+    },
     "vcpu": 8,
     "nfu": "4"
   },
@@ -3542,7 +3560,9 @@
   "Standard_E8a_v4": {
     "up": "Standard_E16a_v4",
     "down": "Standard_E4a_v4",
-    "superseded": null,
+    "superseded": {
+      "regular": "Standard_E8ads_v5"
+    },
     "vcpu": 8,
     "nfu": "4"
   },
@@ -3605,14 +3625,18 @@
   "Standard_F4": {
     "up": "Standard_F8",
     "down": "Standard_F2",
-    "superseded": null,
+    "superseded": {
+      "regular": "Standard_F4s_v2"
+    },
     "vcpu": 4,
     "nfu": "4"
   },
   "Standard_F8": {
     "up": "Standard_F16",
     "down": "Standard_F4",
-    "superseded": null,
+    "superseded": {
+      "regular": "Standard_F8s_v2"
+    },
     "vcpu": 8,
     "nfu": "8"
   },
@@ -3640,21 +3664,27 @@
   "Standard_F4s": {
     "up": "Standard_F8s",
     "down": "Standard_F2s",
-    "superseded": null,
+    "superseded": {
+      "regular": "Standard_F4s_v2"
+    }null,
     "vcpu": 4,
     "nfu": "4"
   },
   "Standard_F8s": {
     "up": "Standard_F16s",
     "down": "Standard_F4s",
-    "superseded": null,
+    "superseded": {
+      "regular": "Standard_F8s_v2"
+    },
     "vcpu": 8,
     "nfu": "8"
   },
   "Standard_F16s": {
     "up": null,
     "down": "Standard_F8s",
-    "superseded": null,
+    "superseded": {
+      "regular": "Standard_F16s_v2"
+    }null,
     "vcpu": 16,
     "nfu": "16"
   },
